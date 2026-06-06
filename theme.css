@@ -2672,7 +2672,12 @@ body.scheme-oldmoney.theme-dark .nav-file-title.is-active {
 
 .side-dock-ribbon-action {
   color: var(--text-muted);
-  padding: 10px;
+  padding: 6px;
+}
+
+.side-dock-ribbon-action svg {
+  width: 16px;
+  height: 16px;
 }
 
 .side-dock-ribbon-action:hover {
