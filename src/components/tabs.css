@@ -89,3 +89,17 @@ body {
 
 /* Main workspace tab container - use Obsidian defaults */
 
+/* ============================================
+   REMOVE TRAFFIC-LIGHT SPACER ON SECONDARY SPLITS
+   The .workspace-tab-header-spacer exists to clear the macOS
+   window controls on the leftmost pane, but Obsidian renders
+   it on every split pane — creating wasted space before tabs
+   on the right side of a vertical split.
+   ============================================ */
+.workspace-split.mod-root .workspace-tabs:not(:first-child) .workspace-tab-header-spacer,
+.workspace-split.mod-root .workspace-split:not(:first-child) .workspace-tabs:first-child .workspace-tab-header-spacer {
+  display: none !important;
+  width: 0 !important;
+  min-width: 0 !important;
+}
+
