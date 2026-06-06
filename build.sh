@@ -13,7 +13,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SRC_DIR="$SCRIPT_DIR/src"
 OUTPUT="$SCRIPT_DIR/theme.css"
-VAULT_THEME_DIR="$HOME/Documents/obsidian/my-vault/.obsidian/themes/Rationale"
+VAULT_THEME_DIR="$HOME/Obsidian/Philosophia/.obsidian/themes/Fork-Rationale"
 
 echo "Building theme.css..."
 

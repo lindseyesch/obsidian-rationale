@@ -1,7 +1,7 @@
 {
-  "name": "Rationale",
-  "version": "2.0.0",
+  "name": "Fork-Rationale",
+  "version": "2.0.0-lindsey.1",
   "minAppVersion": "1.0.0",
-  "author": "David",
-  "authorUrl": "https://github.com/davidszp"
+  "author": "Lindsey Esch (fork of David)",
+  "authorUrl": "https://github.com/lindseyesch/obsidian-rationale"
 }
